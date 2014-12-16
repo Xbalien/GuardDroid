@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button android:id="@+id/server_socket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="server socket"/>
+    
+    <EditText android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id/stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop service"/>
+    
+    <Button android:id="@+id/create_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create db"/>
+    
+    <Button android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit"/>
+    
+    <Button android:id="@+id/permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="permission"/>
+    
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+     	
+
+</LinearLayout>
