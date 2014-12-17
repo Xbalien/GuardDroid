@@ -20,7 +20,7 @@ def zipalign(outapk_path):
     subprocess.call(['zipalign','-v','4','signed.apk',outapk_path],shell=True)
 
 def copy_code(dest_path):
-    p = subprocess.Popen(['xcopy','.\\repackaging',dest_path,'/s','/d'],stdin=subprocess.PIPE,stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell = True)
+    p = subprocess.Popen(['xcopy','.\\repackaging_smali',dest_path,'/s','/d'],stdin=subprocess.PIPE,stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell = True)
     p.communicate(input='D')
     p.wait()
     
